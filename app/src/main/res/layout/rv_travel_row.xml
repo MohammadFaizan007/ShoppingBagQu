@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/img_shoppingmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/img_flight"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/travel_txt"
+        app:srcCompat="@drawable/dreamywallet" />
+
+    <TextView
+        android:id="@+id/shoppinamalltxt"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Shopping Mall"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/img_shoppingmall"
+        app:layout_constraintStart_toStartOf="@+id/img_shoppingmall"
+        app:layout_constraintTop_toBottomOf="@+id/img_shoppingmall" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

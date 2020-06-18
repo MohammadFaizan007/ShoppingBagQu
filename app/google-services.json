@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "569027754533",
+    "firebase_url": "https://shopping-bag-b7378.firebaseio.com",
+    "project_id": "shopping-bag-b7378",
+    "storage_bucket": "shopping-bag-b7378.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569027754533:android:06fb8dc1f7591e0df05dcc",
+        "android_client_info": {
+          "package_name": "com.shoppingbag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569027754533-kh6t3ul196kh3kjatcmhfvlplc1la5g5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHbcJbHC7edenBefVNbEO75Yj6Ce93TDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569027754533-kh6t3ul196kh3kjatcmhfvlplc1la5g5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

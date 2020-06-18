@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/launch_img"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:layout_margin="16dp"
+        android:src="@drawable/dashboard_banner" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_margin="24dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/circelbg"
+        android:text="X"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+</RelativeLayout>

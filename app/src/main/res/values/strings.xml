@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">Shopping Bag</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Login-->
+    <string name="enter_pswd">Enter Password ( Minimum 6 characters )</string>
+    <string name="login_securely">Login Securely</string>
+    <string name="forgot_pswd">Forgot Password?</string>
+    <string name="new_to_kkm">New to Shopping Bag ?</string>
+    <string name="register_now">Create an account</string>
+
+    <string name="check_availability"><u>Check Availability</u></string>
+
+    <!--Electricity-->
+    <string name="select_board">Select Board</string>
+    <string name="service_number">Service Number/Account Number</string>
+    <string name="make_payment">Make  Payment</string>
+    <string name="electricity_inst_text">Your service provider will take two working days to consider bill paid in their accounts.</string>
+    <string name="payment_done_to">Payment Done</string>
+    <string name="select_board_err">Please Select Board</string>
+    <string name="service_number_err">Please Enter Service Number</string>
+
+
+    <!--Registration-->
+    <string name="kkm_registration">"Shopping Bag Registration"</string>
+    <string name="referral_code">Referral Invite Code</string>
+    <string name="mob_no">Mobile Number</string>
+    <string name="email_id">Email ID</string>
+    <string name="create_new_acco">Create New Account</string>
+    <string name="register">Register</string>
+    <string name="donthaveaccount">Already have Shopping Bag Account.</string>
+    <string name="login_now">Login Now</string>
+    <string name="optional">(Optional)</string>
+
+    <!--Add Money-->
+    <string name="is_available_balance">is available balance in your Bag</string>
+
+    <!--App Bar-->
+
+    <!--Bottom Navigation-->
+
+    <!--Bus-->
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="journey_date">Journey Date</string>
+    <string name="search_bus">Search Bus</string>
+
+    <string name="hint_fullname"> Name can\'t be empty</string>
+    <string name="hint_address">Please enter address.</string>
+    <string name="hint_state">Please enter state.</string>
+    <string name="hint_city">City can\'t be empty</string>
+    <string name="hint_pincode">Pincode can\'t be empty</string>
+
+    <string name="recharge_failed"> Recharge Payment Failed.</string>
+    <string name="recharge_successfull"> Recharge Payment Successfully.</string>
+    <string name="date">Date : </string>
+    <!--Error Dialog-->
+    <string name="ok">OK</string>
+
+    <!--Metro recharge-->
+
+    <!--Mobile Recharge-->
+
+
+    <!--travel-->
+
+    <!--side menu-->
+    <string name="my_profile_text">Edit Profile</string>
+    <string name="support_text">Support</string>
+
+    <!--select language-->
+
+    <!--permission-->
+    <string name="ask_permission">We at Shopping Bag take privacy and security with utmost seriousness. We only ask for App permission to enhance either user experience or for specific functionality.</string>
+    <string name="allow_or_deny_permission">You still have the right to allow or deny any permissions !</string>
+    <string name="i_understand_btn">I Understand</string>
+
+    <!--news-->
+
+    <!--money transfer second-->
+
+
+    <!--money transfer -->
+    <string name="ifsc_code">IFSC Code</string>
+
+    <!--Dashboard data-->
+
+    <!--showError String-->
+    <string name="enter_pswd_err">Please Enter Your Password</string>
+    <string name="valid_mob_no_err">Please Enter Your Valid Mobile Number</string>
+    <string name="reg_mob_no_err">Please Enter Your Registered Mobile Number</string>
+    <string name="email_id_err">Please Enter Valid Email ID</string>
+
+    <!--Toast-->
+
+    <!--wallet-->
+
+    <!--Edit Profile-->
+    <string name="personal_info">Personal Information</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="dob">Date Of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="marital_status">Marital Status</string>
+    <string name="bank_details">Bank Details</string>
+    <string name="account_number">Account Number</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="branch_name">Branch Name</string>
+
+    <!--Movie Ticket-->
+
+    <!--EditProfile_Error-->
+
+    <!--shipping and checkout-->
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="pin_code">Pin Code</string>
+
+
+    <!--My Orders-->
+    <string name="item_not_found">Item not Found!</string>
+    <string name="order_status">STATUS : </string>
+    <string name="order_id">ORDER ID : </string>
+    <string name="total">Total : ₹</string>
+
+    <!--MLM Sidemenu-->
+    <string name="free_registration">Free Registration</string>
+    <string name="profile">Profile</string>
+    <string name="my_team">My Team</string>
+    <string name="my_register">Registration</string>
+    <string name="change_pswd">Change Password</string>
+    <string name="refer_earn">Refer &amp; Earn</string>
+    <string name="logout">Logout</string>
+
+    <!--Support MLM-->
+    <string name="details_address"><u>Address Details</u></string>
+    <string name="personal_details"><u>Personal Details</u></string>
+
+
+    <!--insurance Details-->
+
+    <!--Recharge Status-->
+
+    <string name="path_circle">
+    M 50,50
+    m -48,0
+    a 48,48 0 1,0 96,0
+    a 48,48 0 1,0 -96,0
+  </string>
+
+
+    <!--PAYTM-->
+
+    <!--<string name="order_id">Order Id : </string>-->
+    <!--<string name="customer_id">Customer Id : </string>-->
+    <string name="go_on_root"><u>Go on Top</u></string>
+    <string name="up"><u>BACK</u></string>
+    <string name="others">Others</string>
+    <string name="cancel"><u>Cancel Request</u></string>
+
+    <string name="tag">PassengerType</string>
+    <string name="adult">Adult</string>
+    <string name="child">Child</string>
+    <string name="infant">Infant</string>
+    <string name="infant_details">Infants (0–2 yrs)</string>
+    <string name="child_details">Children (2–12 yrs)</string>
+    <string name="adult_details">Adult (12+ yrs)</string>
+    <string name="choose_operator">Choose Operator Code</string>
+    <string name="fare_rules_and_baggage_policy"><![CDATA[Fare Rules & Baggage policy]]></string>
+    <string name="continue_str">Continue</string>
+    <string name="chooseOperatorCode">Choose Operator Code</string>
+    <string name="hintChkMobile">Please check your mobile number.</string>
+    <string name="hintChkOperator">Please check your mobile Mobile Operator.</string>
+    <string name="hintChkRechrgAmt">Please check your mobile Recharge Amount.</string>
+    <string name="some_error">Something went wrong!</string>
+    <string name="acc_type">Account Type</string>
+    <string name="welcome_guest">Welcome</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="my_orders">My Orders</string>
+    <string name="direct_member">Direct Member</string>
+    <string name="downline">Downline</string>
+    <string name="wallet">Wallet</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP>></string>
+    <string name="start">GOT IT</string>
+    <string name="request_wallet">Request Wallet</string>
+    <string name="dreamy_wallet">Shopping Bag Wallet</string>
+    <string name="cashbag_wallet">Cashbag Wallet</string>
+
+    <string name="read_more">Read more</string>
+    <string name="read_less">Read less</string>
+    <string name="commission_wallet">Commission Wallet</string>
+    <string name="cashback_shop">Instead of having cashback in your wallet, Shop minimum  for Rs 500 from <b>\"Shopping Mall\"</b>  to get Shopping Magic Moves &amp; Refer income. Also, enjoy the extra business income for shopping of Rs. 1500.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="alert_text">Alert</string>
+    <string name="permission_camera_rationale11">Some permission are required to use the app.</string>
+    <string name="reqst_permission">Request permission?</string>
+    <string name="alert_internet">Not able to connect to Server. Please check your network connection and try again.</string>
+    <string name="filter">Filter</string>
+</resources>

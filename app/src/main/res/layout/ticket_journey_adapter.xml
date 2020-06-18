@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/cityCodeFrom"
+            fontPath="fonts/Roboto-Medium.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="LKO"
+            android:textSize="24sp"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:id="@+id/txtDeparture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Departure"
+
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/cityCodeFrom"
+            app:layout_constraintTop_toBottomOf="@+id/cityCodeFrom" />
+
+        <TextView
+            android:id="@+id/cityCodeTwo"
+            fontPath="fonts/Roboto-Medium.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="DEL"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:id="@+id/txtArrival"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arrival"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/cityCodeTwo"
+            app:layout_constraintTop_toBottomOf="@+id/cityCodeTwo" />
+
+
+        <TextView
+            android:id="@+id/txtDay"
+            fontPath="fonts/Roboto-Medium.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:text="Tuesday"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cityCodeFrom"
+            tools:ignore="MissingPrefix" />
+
+
+        <TextView
+            android:id="@+id/txtDate"
+            fontPath="fonts/Roboto-Light.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nov,15"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/txtDay"
+            app:layout_constraintStart_toStartOf="@+id/txtDay"
+            app:layout_constraintTop_toBottomOf="@+id/txtDay"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:id="@+id/departTime"
+            fontPath="fonts/Roboto-Medium.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="16:50"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/txtDeparture"
+            app:layout_constraintTop_toBottomOf="@+id/txtDeparture"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:id="@+id/departTerminal"
+            fontPath="fonts/Roboto-Thin.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lucknow"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/departTime"
+            app:layout_constraintTop_toBottomOf="@+id/departTime"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:id="@+id/ariveTime"
+            fontPath="fonts/Roboto-Medium.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="21:05"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/txtArrival"
+            app:layout_constraintTop_toBottomOf="@+id/txtArrival"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:id="@+id/ariveTerminal"
+            fontPath="fonts/Roboto-Thin.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delhi"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/ariveTime"
+            app:layout_constraintTop_toBottomOf="@+id/ariveTime"
+            tools:ignore="MissingPrefix" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/departTime"
+            app:layout_constraintStart_toEndOf="@+id/departTime"
+            app:layout_constraintTop_toTopOf="@+id/departTime"
+            app:srcCompat="@drawable/air" />
+
+        <View
+            android:id="@+id/view9"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/dash_bg"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+            app:layout_constraintEnd_toStartOf="@+id/txtTotalTime"
+            app:layout_constraintStart_toEndOf="@+id/imageView11"
+            app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+        <TextView
+            android:id="@+id/txtTotalTime"
+            fontPath="fonts/Roboto-Medium.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="4h 50m"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView12"
+            app:layout_constraintStart_toEndOf="@+id/imageView11"
+            app:layout_constraintTop_toTopOf="@+id/departTime"
+            tools:ignore="MissingPrefix" />
+
+
+        <View
+            android:id="@+id/view10"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/dash_bg"
+            app:layout_constraintBottom_toBottomOf="@+id/txtTotalTime"
+            app:layout_constraintEnd_toStartOf="@+id/imageView12"
+            app:layout_constraintStart_toEndOf="@+id/txtTotalTime"
+            app:layout_constraintTop_toTopOf="@+id/txtTotalTime" />
+
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/ariveTime"
+            app:layout_constraintEnd_toStartOf="@+id/ariveTime"
+            app:layout_constraintTop_toTopOf="@+id/ariveTime"
+            app:srcCompat="@drawable/air" />
+
+        <TextView
+            android:id="@+id/txtSeatMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="SEAT MAP"
+            android:textAppearance="@style/TextField"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ariveTerminal" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

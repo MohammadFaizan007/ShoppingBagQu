@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <color name="semi_white">#88FFFFFF</color>
+
+    <dimen name="dimen_10">10dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="_1sdp">1dp</dimen>
+    <dimen name="_2sdp">2dp</dimen>
+
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+</resources>
